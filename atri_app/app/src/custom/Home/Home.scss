@@ -1,0 +1,34 @@
+.p-Home {
+    line-height: 115%;
+    .Header, .TextBox175{
+        text-transform: none !important;
+    }
+    .Header, .Heading,  .TextBox25, .Project_Text, .TextBox48, .TextBox51, .TextBox117, .TextBox55, .TextBox79, .TextBox136, .TextBox142, .TextBox175, .TextBox181{
+        width: fit-content;
+        background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    .Edu_Item, .Flex69, .Flex73, .Work_Item, .Flex101, .Flex107{
+        border-bottom: 1px solid #e5e5e5;
+        transition: .5s border-bottom;
+        &:hover{
+            border-bottom: 1px solid #666;
+        }
+    }
+
+    .Flex162, .FAQ_Item, .Flex165, .Flex163, .Flex166, .Flex167, .Flex168, .Flex164{
+        font-size: 28px !important;
+        border-bottom: 1px solid #666;
+    }
+    
+    .Flex10{
+        img{
+            object-fit: contain;
+        }
+    }
+}
